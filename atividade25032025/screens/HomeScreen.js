@@ -15,16 +15,6 @@ export default function HomeScreen({ navigation }) {
         navigation.navigate("EditOrConfirm", { name, phone, email })
     }
 
-    // useEffect(() => {
-    //     // const { name, phone, email } = route.params;
-    //     // setName(name)
-    //     // setName(phone)
-    //     // setName(name)
-
-    //     console.log(route);
-
-    //   }, [route.params]);
-
     return (
         <View style={{ flex: 1, alignItems: "center", justifyContent: "center"}}>
             <TextInput
